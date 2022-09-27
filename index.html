@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My List - ICT 4300</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding: 2rem;
+        background-color: lightgrey;
+      }
+
+      main {
+        margin: 0 auto;
+        max-width: 1500px;
+      }
+
+      .container {
+        max-width: 1200px;
+      }
+
+      h1 {
+        font-size: 3rem;
+      }
+
+      .text {
+        margin-bottom: 2rem;
+        font-size: 1.3rem;
+      }
+
+      ul {
+        list-style-type: none;
+      }
+
+      a {
+        display: block;
+        text-decoration: none;
+      }
+
+      a:link,
+      a:visited {
+        color: black;
+      }
+
+      img {
+        width: 100%;
+        height: 70%;
+        object-fit: cover;
+      }
+
+      ul {
+        display: flex;
+        gap: 1.2rem;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+      }
+
+      .list-item {
+        width: 350px;
+        border-radius: 10px;
+        overflow: hidden;
+        background-color: #ffffff;
+        box-shadow: 9px 10px 5px 0px rgba(0, 0, 0, 0.16);
+        -webkit-box-shadow: 9px 10px 5px 0px rgba(0, 0, 0, 0.16);
+        -moz-box-shadow: 9px 10px 5px 0px rgba(0, 0, 0, 0.16);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        transition: all 0.3s ease-in-out;
+      }
+
+      .list-item:hover {
+        transform: scale(1.03);
+        cursor: pointer;
+      }
+
+      .band-name {
+        margin: 1rem 0rem 2rem 1rem;
+        font-size: 1.5rem;
+        align-self: flex-start;
+      }
+
+      .band-name:hover {
+        color: #010192;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1 class="title">Bands I Want To See Live</h1>
+      <p class="text">Top 5 living bands I would like to see live.</p>
+      <div class="container">
+        <ul>
+          <li class="list-item">
+            <img class="band-logo" src="https://cbernhard21.github.io/ICT-4300-images/tool.jpg" alt="Tool Logo" />
+            <a href="https://www.youtube.com/watch?v=fmyNZTp1rWc" class="band-name">Tool</a>
+          </li>
+
+          <li class="list-item">
+            <img class="band-logo" src="https://cbernhard21.github.io/ICT-4300-images/phish.jpeg" alt="Phish Logo" />
+            <a href="https://www.youtube.com/watch?v=NNAhTF738DE" class="band-name">Phish</a>
+          </li>
+
+          <li class="list-item">
+            <img class="band-logo" src="https://cbernhard21.github.io/ICT-4300-images/rage.jpg" alt="Rage Against The Machine Logo" />
+            <a href="https://www.youtube.com/watch?v=Umh7ll2wFHQ" class="band-name">Rage Against The Machine</a>
+          </li>
+
+          <li class="list-item">
+            <img class="band-logo" src="https://cbernhard21.github.io/ICT-4300-images/op-ivy.jpg" alt="Operation Ivy Logo" />
+            <a href="https://www.youtube.com/watch?v=5HtUnubXAO4&list=PLC1A4216BA8DFF1F1" class="band-name">Operation Ivy</a>
+          </li>
+
+          <li class="list-item">
+            <img class="band-logo" src="https://cbernhard21.github.io/ICT-4300-images/siamese-dream.jpg" alt="Smashing Pumpkins, Siamese Dream Album Cover Logo" />
+            <a href="https://www.youtube.com/watch?v=VbrfXDFuzu0&list=PL0D8442F129C22C6E" class="band-name">Smashing Pumpkins</a>
+          </li>
+        </ul>
+      </div>
+    </main>
+  </body>
+</html>
